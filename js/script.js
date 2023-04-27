@@ -51,5 +51,16 @@ function mudaBanner3(){
    setTimeout(mudaBanner1, 2000);
 }
 
+function acender(){
+    const imgLamp = document.querySelector(".conteudo img");
+    const btn = document.querySelector(".botao");
 
+    if(btn.textContent == "LIGAR"){
+        imgLamp.src =  "./img/pic_bulbon.gif ";
+        btn.textContent = 'DESLIGAR';
+    }else{
+        imgLamp.src =  "./img/pic_bulboff.gif ";
+        btn.textContent = "LIGAR ";
+    }
+}
 
