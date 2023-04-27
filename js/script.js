@@ -55,7 +55,7 @@ function acender(){
     const imgLamp = document.querySelector(".conteudo img");
     const btn = document.querySelector(".botao");
 
-    if(btn.textContent == "LIGAR"){
+    if(btn.textContent == "LIGAR"){  
         imgLamp.src =  "./img/pic_bulbon.gif ";
         btn.textContent = 'DESLIGAR';
     }else{
