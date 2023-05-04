@@ -1,0 +1,66 @@
+// function mudaCor(){
+
+//     let r = 0;
+//     let g = 0;
+//     let b = 0;
+
+//     r = Math.ceil(Math.random()*255);
+//     g = Math.ceil(Math.random()*255);
+//     b = Math.ceil(Math.random()*255);
+
+//     const elementos = [...document.getElementsByClassName("cabecalho")];
+
+//     elementos.forEach((el)=>{
+//         el.style.background = `rgb(${r},${g},${b})`;
+//     })
+
+//     tmp = setTimeout(mudaCor, 5000);
+// }
+
+// mudaCor()
+
+function mudaBanner1(){
+
+    let banner1 = '../img/banner-1440x300-1.jpg';
+    
+    
+
+   const elImg = document.querySelector(".cabecalho > img");
+   elImg.src = banner1;
+
+   setTimeout(mudaBanner2, 2000);
+}
+
+function mudaBanner2(){
+
+    let banner2 = '../img/banner-1440x300-2.jpg';
+
+   const elImg = document.querySelector(".cabecalho > img");
+   elImg.src = banner2;
+
+   setTimeout(mudaBanner3, 2000);
+}
+
+function mudaBanner3(){
+
+    let banner3 = '../img/banner-1440x300-3.jpg';
+
+   const elImg = document.querySelector(".cabecalho > img");
+   elImg.src = banner3;
+
+   setTimeout(mudaBanner1, 2000);
+}
+
+function acender(){
+    const imgLamp = document.querySelector(".conteudo img");
+    const btn = document.querySelector(".botao");
+
+    if(btn.textContent == "LIGAR"){  
+        imgLamp.src =  "./img/pic_bulbon.gif ";
+        btn.textContent = 'DESLIGAR';
+    }else{
+        imgLamp.src =  "./img/pic_bulboff.gif ";
+        btn.textContent = "LIGAR ";
+    }
+}
+

@@ -1,0 +1,78 @@
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 238, 30);
+    color: black;
+    height: 20vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 100%;
+    color: white;
+}
+
+.banner-1{
+    flex-grow: 1;
+    background-color: rgb(136, 24, 24);   
+}
+
+.banner-2{
+    flex-grow: 1;
+    background-color: rgb(8, 8, 99);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 35, 163);
+    color: rgb(252, 252, 252);
+    height: 20vh;
+}
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    height: 30vh;
+
+    background-image: url("../img/banner-1440x300-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    color: #fff;
+}
+
+.banner-1{
+    flex-grow: 1;
+    background-color: #4b0606;
+}
+.conteudo{
+    flex-grow: 5;
+    background-color: #552329;
+}
+.banner-2{
+    flex-grow: 1;
+    background-color: #14033b;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #32589f;
+    color: #fff;
+    height: 20vh;
+}
